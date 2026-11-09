@@ -218,3 +218,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+/chapter-5-supervision/images/*
+!/chapter-5-supervision/images/.keep
+
+/chapter-5-supervision/weights/*
+!/chapter-5-supervision/weights/.keep
