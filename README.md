@@ -1,6 +1,8 @@
 # study-yolo11-in-action
 动手学 YOLO 
 
+官方配套代码：https://gitee.com/jiabiao1602/yolo11_object_detection
+
 ## environment config
 
 ⚠️ pandasai 要求 python<=3.11
@@ -55,5 +57,7 @@ pip install supervision -i https://pypi.tuna.tsinghua.edu.cn/simple/
 python -c "import supervision as sv;  print(sv.__version__)"
 # 查看版本号
 pip show supervision
+
+pip install trackers
 
 ```

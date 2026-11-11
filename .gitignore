@@ -223,3 +223,12 @@ __marimo__/
 
 /chapter-5-supervision/weights/*
 !/chapter-5-supervision/weights/.keep
+
+/chapter-5-supervision/videos/*
+!/chapter-5-supervision/videos/.keep
+
+/chapter-5-supervision/output/*
+!/chapter-5-supervision/output/.keep
+
+/chapter-5-supervision/results/*
+!/chapter-5-supervision/results/.keep
