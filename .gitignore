@@ -218,6 +218,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# chapter 5
 /chapter-5-supervision/images/*
 !/chapter-5-supervision/images/.keep
 
@@ -232,3 +234,21 @@ __marimo__/
 
 /chapter-5-supervision/results/*
 !/chapter-5-supervision/results/.keep
+
+# chapter 6
+
+/chapter-6-data-annotation/images/*
+!/chapter-6-data-annotation/images/.keep
+
+/chapter-6-data-annotation/weights/*
+!/chapter-6-data-annotation/weights/.keep
+
+/chapter-6-data-annotation/runs/*
+!/chapter-6-data-annotation/runs/.keep
+
+/chapter-6-data-annotation/label-img/*
+!/chapter-6-data-annotation/label-img/.keep
+
+/chapter-6-data-annotation/ybat/*
+!/chapter-6-data-annotation/ybat/.keep
+chapter-6-data-annotation/bee-detections/data.yaml

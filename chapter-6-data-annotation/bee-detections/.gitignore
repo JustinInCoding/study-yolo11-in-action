@@ -1,0 +1,8 @@
+/datasets/*
+!/datasets/.keep
+
+/kaggle/*
+!/kaggle/.keep
+
+/runs/*
+!/runs/.keep
