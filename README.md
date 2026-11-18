@@ -63,6 +63,50 @@ pip install trackers
 
 ```
 
+## environment 2 config (pandas ai)
+
+```bash
+
+# 首次配置环境
+conda create -n study-yolo11-in-action-2 python=3.11
+
+# 如果没有安装 yolo
+pip install ultralytics -i https://pypi.tuna.tsinghua.edu.cn/simple/
+# 用 pip show ultralytics 或者 yolo 来验证
+pip show ultralytics
+yolo
+# 用 yolo checks 查看安装信息
+yolo checks
+
+# pip install jupyterlab
+# pip install ipywidgets
+# # 安装 jupyter 内核
+# conda install ipykernel
+# # 为当前环境注册内核
+# python -m ipykernel install --user --name study-yolo11-in-action --display-name "Python (study-yolo11-in-action)"
+# # 确认是否添加成功 (看看输出列表中是否含有刚注册的 study-yolo11-in-action )
+# jupyter kernelspec list
+# # 运行打开
+# jupyter lab
+
+# 安装 Streamlit
+pip install streamlit -i https://pypi.tuna.tsinghua.edu.cn/simple
+# 查看已安装的 streamlit 的版本
+streamlit --version
+# 或者通过 streamlit hello 来启动一个本地服务查看官方的示例交互应用
+
+# 安装 PandasAI
+pip install pandasai==2.4.1 -i https://pypi.tuna.tsinghua.edu.cn/simple
+# 查看版本号
+pip show pandasai
+# 如果缺少 seaborn
+pip install seaborn -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+pip install "pyarrow<26"
+pip install pyyaml
+
+```
+
 ## troubleshooting
 
 ### pandas 与 numpy 二进制不兼容（numpy.dtype size changed）
@@ -89,3 +133,5 @@ python -c "import pandas as pd, numpy as np, seaborn as sns, cv2; from ultralyti
 ```
 
 注意：升级 pandas 后，`pandasai==2.4.1`（要求 pandas==1.5.3）会出现依赖冲突提示。如果不用 pandasai 可忽略；需要用 pandasai 时建议单独建环境。
+
+
