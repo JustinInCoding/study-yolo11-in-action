@@ -175,7 +175,7 @@ nl_query = st.sidebar.text_input("输入自然语言查询", "检测到哪些目
 #     model = "deepseek-chat"
 # )
 from deepseek_llm import DeepSeekLLM
-llm = DeepSeekLLM(api_key="sk-3d28a0cf2d6f461dbf41358542e5d06f", model="deepseek-flash")
+llm = DeepSeekLLM(api_key="sk-xxxxxxx", model="deepseek-flash")
 
 # 创建 SmartDataframe 实例，用于处理数据框和自然语言查询
 smart_df = SmartDataframe(
