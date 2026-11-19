@@ -1,0 +1,17 @@
+/* Markdown h1 标题文本样式 */
+h1.stHeader {
+    text-align: center;
+    color: #0b9963;
+}
+
+/* Markdown p 文本样式 */
+p.stHeader {
+    color: #6c66b4;
+    font-style: italic;
+}
+
+/* 侧边栏样式 */
+.stSidebar {
+    background-color: #e9f5ede7;
+    padding: 20px;
+}
