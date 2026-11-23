@@ -252,3 +252,4 @@ __marimo__/
 /chapter-6-data-annotation/ybat/*
 !/chapter-6-data-annotation/ybat/.keep
 chapter-6-data-annotation/bee-detections/data.yaml
+chapter-11-football-player-detection/runs/detect/track/video.mp4
