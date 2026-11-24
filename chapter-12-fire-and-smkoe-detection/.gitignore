@@ -1,0 +1,6 @@
+/archive/*
+/kaggle/*
+/cache/*
+/tmp/*
+/output/*
+/.vscode/*
