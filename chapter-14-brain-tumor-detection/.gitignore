@@ -1,0 +1,8 @@
+/archive/*
+/datasets/*
+/kaggle/*
+axial_t1wce_best.pt
+coronal_t1wce_best.pt
+sagittal_t1wce_best.pt
+/.vscode/*
+/public/*

@@ -1,0 +1,47 @@
+/* style.css */
+/* 让内容层背景透明，避免默认的白色背景色遮住 .stApp 上的背景图 */
+.stApp {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: transparent;
+    color: white;
+}
+
+/* 隐藏主菜单、页脚和页眉的样式定义 */
+#MainMenu {visibility: hidden;} /* 隐藏主菜单 */
+footer {visibility: hidden;}    /* 隐藏页脚 */
+header {visibility: hidden;}    /* 隐藏页眉 */
+
+/* 选择器定义：针对 div 元素中的 stButton 类下的第一个 button 子元素 */
+div.stButton > button:first-child {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* 定义一个自定义指标样式，用于展示关键指标数据 */
+.custom-metric {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+
+/* 定义指标标签样式，使其加粗并设置字体大小 */
+.custom-metric .metric-label {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.custom-metric .metric-value {
+    font-size: 28px;
+    font-weight: bold;
+}
